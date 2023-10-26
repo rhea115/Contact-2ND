@@ -1,0 +1,182 @@
+.container{
+    height: 540px;
+    width: 1200px;
+    display: flex;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.52);
+}
+
+.col{
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.left-col{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.left-col .text-con
+{
+    position: absolute;
+    color: rgb(223, 166, 96);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 25px;
+    top: 10px;
+    left: 10px;
+    text-shadow: 4px 3px 5px rgba(0,0,0,0.5);
+}
+
+.left-col img
+{
+    filter: brightness(90%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom center;
+}
+
+.center-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.left-col .cloud
+{
+    position: absolute;
+}
+
+.left-col .cloud .cloud-con
+{
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-col .cloud img
+{
+    filter: brightness(100%);
+    height: 100%;
+    width: 100%;
+}
+
+.contact-con
+{
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-con .flex
+{
+    display: flex;
+    height: 25px;
+    margin-top: 8px;
+}
+
+.contact-con .flex img
+{
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.contact-con .text
+{
+    color: rgb(87, 66, 46);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.center-right .right-col h1
+{
+    color: rgb(115, 85, 56);
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+}
+
+.right-col
+{
+    width: 100%;
+}
+.center-right{
+    margin-top: 25px;
+}
+
+form .input-con
+{
+    width: 70%;
+}
+
+form .input-con label
+{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+form .input-con input, form .input-con textarea
+{
+    width: 100%;
+    margin-top: 4px;
+    padding: 12px;
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+}
+
+form .center
+{
+    margin-top: 20px;
+}
+
+form .center button
+{
+    padding: 12px 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background: rgb(179, 144, 108);
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 16px;
+    
+}
+
+form .center button:hover
+{
+    opacity: 0.8;
+}
+
+.loc
+{
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.loc img
+{
+    object-fit: contain;
+    height: 100%;
+}
